@@ -1,10 +1,18 @@
-import Hello from "./components/Hello"
+import Hello from "./components/Hello";
 function App() {
+  const seatNumbers = [1, 4, 7];
+  const person={
+    name:"Hemanth",
+    message:"Hi there!",
+    emoji:"👋",
+    seatNumbers: [1,4,7]
+  }
   return (
     <div className="App">
-      <Hello/>
+      <Hello person={person}/>
+    
     </div>
-  )
+  );
 }
 
 export default App;
