@@ -1,5 +1,7 @@
 import Fruits from "./components/Fruits";
 import Hello from "./components/Hello";
+import FruitsTwo from "./components/FruitsTwo"
+
 function App() {
   // const seatNumbers = [1, 4, 7];
   // const person={
@@ -11,9 +13,9 @@ function App() {
   return (
     <div className="App">
       {/* <Hello person={person}/> */}
+      {/* <Fruits /> */}
 
-      <Fruits/>
-    
+      <FruitsTwo />
     </div>
   );
 }
