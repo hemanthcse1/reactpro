@@ -3,6 +3,9 @@ import Hello from "./components/Hello";
 import FruitsTwo from "./components/FruitsTwo"
 import Button from "./components/Button";
 import ProfilePicture from "./components/ProfilePicture";
+import MyComponent from "./MyComponent";
+import Counter from "./Counter";
+
 
 function App() {
   // const seatNumbers = [1, 4, 7];
@@ -21,7 +24,11 @@ function App() {
 
       {/* <Button /> */}
 
-      <ProfilePicture/>
+      {/* <ProfilePicture/> */}
+
+      {/* <MyComponent /> */}
+
+      <Counter/>
     </div>
   );
 }
