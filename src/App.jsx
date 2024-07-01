@@ -5,6 +5,7 @@ import Button from "./components/Button";
 import ProfilePicture from "./components/ProfilePicture";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
+import EventChange from "./components/EventChange";
 
 
 function App() {
@@ -28,7 +29,10 @@ function App() {
 
       {/* <MyComponent /> */}
 
-      <Counter/>
+      {/* <Counter/> */}
+
+      <EventChange />
+
     </div>
   );
 }
